@@ -1,0 +1,206 @@
+body{
+  background-color: #343a40;
+}
+
+.logo{
+  width: 50%;
+}
+.bg-color{
+  background-color: #343a40;
+}
+.color {
+  color: black;
+}
+.color-theme{
+  color: #ffc012;
+}
+.btn-color{
+  background-color: #ffc012;
+}
+.bg-header{
+  background-color: #ffc012;
+}
+/* header style */
+.navbar-nav{
+  border: 2px solid #ffc012;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-light .navbar-toggler{
+  border-color: #ffc012;
+  background-color: #ffc012;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  background: #ffc012;
+  color: black;
+}
+/* slider section */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border: 3px solid #ffc012;
+  border-radius: 100%;
+ 
+}
+.carousel-indicators li:hover {
+  background-color: #ffc012 ;
+}
+.carousel-caption{
+  bottom: 20%;
+}
+.box{
+  border: 3px solid #ffc012;
+}
+.bg-overlay {
+  background-image:  url("../images/combine\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+  /* padding-top: 300px; */
+}
+.menu-height{
+  padding-top: 420px;
+  padding-bottom: 125px
+}
+.bg-discount {
+  background-image:  url("../images/combine\ 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+  height: 700px;
+}
+.offer{
+  transform: translate(0, 41%);
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.offer-logo{
+  width: 15%;
+}
+.offer-height{
+  margin-top:166px;
+}
+.bg-special{
+  background-image:  url("../images/combine\ 5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+  height: 1011px;
+}
+.bg-method{
+  background-image:  url("../images/cc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+  height: 831px;
+  top: -105px;
+  z-index: -1
+}
+.method-card{
+  transform: translate(0, 153%);
+}
+.bg-music{
+  background-image:  url("../images/combine44.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+  margin-top: -75px;
+  height: 760px;
+}
+.center{
+  transform: translate(0, 37%);
+}
+/* footer section */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+.item{
+display: inline-block;
+padding-left: 50px;
+}
+.logo-footer{
+  width: 9%;
+}
+.icon-size{
+  font-size: x-large;
+}
+a:hover {
+  color: #ffc012;
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+
+  .carousel-caption{
+    top:-7%
+  }
+  .card-body {
+    padding: 0px;
+  }
+  .offer-logo{
+    width: 50%;
+  }
+  .menu-height {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.content{
+  padding-top: 20px;
+}
+.footer-space{
+  padding-top: 10px;
+}
+.logo-footer {
+  width: 38%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card-sm{
+    top:28%
+  }   
+  .carousel-caption{
+    top:24%
+  }
+  .card-body {
+    padding: 0px;
+  }
+  .offer-logo{
+    width: 27%;
+  }
+  .menu-height {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .center {
+  transform: translate(0, 27%);
+  }
+  .content{
+  padding-top: 20px;
+  }
+  .footer-space{
+  padding-top: 10px;
+  }
+  .logo-footer {
+    width: 25%;
+  }
+}
+
